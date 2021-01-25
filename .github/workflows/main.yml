@@ -22,10 +22,10 @@ jobs:
            .\MSBuild.exe -t:build -restore /p:Configuration=Release $Env:GITHUB_WORKSPACE\AasUpdater\AasUpdater.csproj
       - name: Rename release binaries
         run: |
-           ren "D:\a\AasUpdater\AasUpdater\bin\Release" "D:\a\AasUpdater\AasUpdater\bin\AasUpdater"
+           ren "D:\a\AasUpdater\AasUpdater\AasUpdater\bin\Release" "D:\a\AasUpdater\AasUpdater\AasUpdater\bin\AasUpdater"
       - name: Zip release directory
         run: |
-          powershell Compress-7Zip "D:\a\AasUpdater\AasUpdater\bin\AasUpdater" -ArchiveFileName "AasUpdater.zip" -Format Zip
+          powershell Compress-7Zip "D:\a\AasUpdater\AasUpdater\AasUpdater\bin\AasUpdater" -ArchiveFileName "AasUpdater.zip" -Format Zip
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
