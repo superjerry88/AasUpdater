@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AasUpdater", "AasUpdater\AasUpdater.csproj", "{1B427413-CBBB-4DD3-8372-BC7A8ECE7AEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B427413-CBBB-4DD3-8372-BC7A8ECE7AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B427413-CBBB-4DD3-8372-BC7A8ECE7AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B427413-CBBB-4DD3-8372-BC7A8ECE7AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B427413-CBBB-4DD3-8372-BC7A8ECE7AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB3329C-EC81-4721-BF4F-4A224C0575D1}
+	EndGlobalSection
+EndGlobal
