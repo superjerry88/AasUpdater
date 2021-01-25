@@ -10,6 +10,7 @@ namespace AasUpdater
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
             //Console.WriteLine(Logic.CheckPathExist());
 
             Console.Read();
